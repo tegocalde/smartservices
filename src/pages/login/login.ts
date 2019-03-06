@@ -6,7 +6,8 @@ import { HomePage } from '../home/home';
  * Generated class for the LoginPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pageagit ins aand navigation.
+ * Ionic pageagit ingit remote
+ * s aand nasvigation.
  */
 
 @IonicPage()
