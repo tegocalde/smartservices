@@ -7,7 +7,7 @@ import { HomePage } from '../home/home';
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pageagit ingit remote
- * s aand nasvigation.
+ * s aand nasvigatiosn.
  */
 
 @IonicPage()
