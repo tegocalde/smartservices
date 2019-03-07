@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { SeguimientoPage } from '../pages/seguimiento/seguimiento';
 import { TiendaPage } from '../pages/tienda/tienda';
 import { LoginPage } from '../pages/login/login';
+import { RegistroPage } from '../pages/registro/registro';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginPage } from '../pages/login/login';
     ListPage,
     SeguimientoPage,
     TiendaPage,
-    LoginPage
+    LoginPage,
+    RegistroPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { LoginPage } from '../pages/login/login';
     ListPage,
     SeguimientoPage,
     TiendaPage,
-    LoginPage
+    LoginPage,
+    RegistroPage
   ],
   providers: [
     StatusBar,
