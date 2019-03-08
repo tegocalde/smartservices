@@ -1,5 +1,7 @@
 {
   "name": "smart",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
