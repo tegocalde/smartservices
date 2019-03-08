@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'seguimiento.html',
 })
 export class SeguimientoPage {
-
+  tiempo:string=new Date().toString();
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
