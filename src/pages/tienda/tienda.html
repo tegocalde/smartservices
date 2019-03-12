@@ -7,10 +7,17 @@
 <ion-header>
   <ion-navbar color="marino">
     <button ion-button menu-Close menuToggle="left" ><ion-icon name="menu"></ion-icon></button>
-    <ion-title>Tienda</ion-title>
+    <ion-title>Tiendas</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <button ion-item *ngFor="let p of tiendas" no-lines>
+    {{p.nombre}}
+    <img src= "../assets/icon/{{p.logo}}" item-left>
+
+
+  </button>
 
 </ion-content>
