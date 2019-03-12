@@ -8,7 +8,7 @@
   <ion-navbar color="marino">
       <button ion-button menu-Close menuToggle="left" ><ion-icon name="menu"></ion-icon></button>
 
-    <ion-title>Seenguimkiento</ion-title>
+    <ion-title>Seguimiento</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -17,14 +17,17 @@
     <ion-card > 
         <ion-card-header color="marino">
           <ion-card-title color="danger">Reparacion</ion-card-title>
+          <img src="../../assets/imgs/hondaCivic.jpg">
+
         </ion-card-header>
-      
+    
         <ion-card-content >
-          
           <ion-label><b>Vehiculo: </b> Honda Civic 2009</ion-label>
+   
            <ion-label><b>Fecha Inicio: </b>{{tiempo | date: 'dd/MM/yyyy'}}<br></ion-label> 
-           <ion-label><b>Tipo Reparacion: </b> Problemas en Transmision.<br></ion-label> 
+           <ion-label><b>Tipo Reparacion: </b> Problemas en Transmision.</ion-label>
            <ion-label><b>Tiempo Restante: </b>3 Dias.<br></ion-label>  
+          
         
           
             <b>Nota: </b> La transmision estaba presentando inconvenientes con el switch de presion 
@@ -34,7 +37,7 @@
           
 
         </ion-card-content>
-        <button ion-button id="nota">Agregar Nota</button>
+        <button ion-button id="nota" (click)="agregarNota()">Agregar Nota</button>
       </ion-card>
 
 </ion-content>

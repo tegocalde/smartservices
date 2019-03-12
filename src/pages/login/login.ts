@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams,AlertController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams,AlertController, MenuController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { RegistroPage } from '../registro/registro';
 
@@ -22,8 +22,9 @@ export class LoginPage {
   pass:string;
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public alerta:AlertController) {
-    
+  constructor(public navCtrl: NavController, public navParams: NavParams, public alerta:AlertController, public menu:MenuController) {
+    this.menu.enable(false);
+
   }
 
 

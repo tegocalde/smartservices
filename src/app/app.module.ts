@@ -1,3 +1,4 @@
+import { ModalSeguimientoPage } from './../pages/modal-seguimiento/modal-seguimiento';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -12,6 +13,7 @@ import { SeguimientoPage } from '../pages/seguimiento/seguimiento';
 import { TiendaPage } from '../pages/tienda/tienda';
 import { LoginPage } from '../pages/login/login';
 import { RegistroPage } from '../pages/registro/registro';
+import { RepuestosPage } from '../pages/repuestos/repuestos';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { RegistroPage } from '../pages/registro/registro';
     SeguimientoPage,
     TiendaPage,
     LoginPage,
-    RegistroPage
+    RegistroPage,
+    ModalSeguimientoPage,
+    RepuestosPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,9 @@ import { RegistroPage } from '../pages/registro/registro';
     SeguimientoPage,
     TiendaPage,
     LoginPage,
-    RegistroPage
+    RegistroPage,
+    ModalSeguimientoPage,
+    RepuestosPage
   ],
   providers: [
     StatusBar,
