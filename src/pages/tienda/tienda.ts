@@ -24,25 +24,33 @@ nombre: string="";
       {
         nombre:"Agencia Bella",
         logo:"agenciaBella.ico",
+        imagen: "agenciaBella.png"
+
       },
       {
         nombre:"Bonanza Dominicana",
         logo:"bonanzaDominicana.ico",
+        imagen: "santoDomingo.png"
+
       },
       {
         nombre:"Delta Comercial",
         logo:"deltaComercial48.ico",
-        
+        imagen: "deltaComercial.png"
+
 
       },
       {
         nombre:"Santo Domingo Motors",
         logo:"santoDomingo48.ico",
+        imagen: "santoDomingo.png"
       },
 
       {
         nombre:"Grupo Viamar",
         logo:"viamar.ico",
+        imagen: "santoDomingo.png"
+
       },
 
 
