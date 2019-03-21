@@ -22,34 +22,33 @@ nombre: string="";
 
     this.tiendas=[
       {
-        nombre:"Agencia Bella",
-        logo:"agenciaBella.ico",
-        imagen: "agenciaBella.png"
+        nombre:"Empresa 1",
+        logo:"logo1.ico",
+        imagen: "logo1.JPG"
 
       },
       {
-        nombre:"Bonanza Dominicana",
-        logo:"bonanzaDominicana.ico",
-        imagen: "santoDomingo.png"
+        nombre:"Empresa 2",
+        logo:"logo2.ico",
+        imagen: "logo2.JPG"
+      },
+      {
+        nombre:"Empresa 3",
+        logo:"logo3.ico",
+        imagen: "logo3.JPG"
+
 
       },
       {
-        nombre:"Delta Comercial",
-        logo:"deltaComercial48.ico",
-        imagen: "deltaComercial.png"
-
-
-      },
-      {
-        nombre:"Santo Domingo Motors",
-        logo:"santoDomingo48.ico",
-        imagen: "santoDomingo.png"
+        nombre:"Empresa 4",
+        logo:"logo4.ico",
+        imagen: "logo4.JPG"
       },
 
       {
-        nombre:"Grupo Viamar",
-        logo:"viamar.ico",
-        imagen: "santoDomingo.png"
+        nombre:"Empresa 5",
+        logo:"logo5.ico",
+        imagen: "logo5.JPG"
 
       },
 

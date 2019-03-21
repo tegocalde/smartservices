@@ -14,6 +14,9 @@ import { TiendaPage } from '../pages/tienda/tienda';
 import { LoginPage } from '../pages/login/login';
 import { RegistroPage } from '../pages/registro/registro';
 import { RepuestosPage } from '../pages/repuestos/repuestos';
+import { ArticuloPage } from '../pages/articulo/articulo';
+import { EncontrarPage } from '../pages/encontrar/encontrar';
+import { AcercaPage } from '../pages/acerca/acerca';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { RepuestosPage } from '../pages/repuestos/repuestos';
     LoginPage,
     RegistroPage,
     ModalSeguimientoPage,
-    RepuestosPage
+    RepuestosPage,
+    ArticuloPage,
+    EncontrarPage,
+    AcercaPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,10 @@ import { RepuestosPage } from '../pages/repuestos/repuestos';
     LoginPage,
     RegistroPage,
     ModalSeguimientoPage,
-    RepuestosPage
+    RepuestosPage,
+    ArticuloPage,
+    EncontrarPage,
+    AcercaPage
   ],
   providers: [
     StatusBar,

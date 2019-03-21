@@ -8,6 +8,9 @@ import { ListPage } from '../pages/list/list';
 import { SeguimientoPage } from '../pages/seguimiento/seguimiento';
 import { TiendaPage } from '../pages/tienda/tienda';
 import { LoginPage} from '../pages/login/login';
+import { ArticuloPage } from '../pages/articulo/articulo';
+import { EncontrarPage } from '../pages/encontrar/encontrar';
+import { AcercaPage } from '../pages/acerca/acerca';
 
 @Component({
   templateUrl: 'app.html'
@@ -15,7 +18,7 @@ import { LoginPage} from '../pages/login/login';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = TiendaPage;
+  rootPage: any = AcercaPage;
 
   pages: Array<{title: string, component: any,icon:string, valor:string}>;
 
@@ -28,6 +31,8 @@ export class MyApp {
       { title: 'Seguimiento',icon:'ios-search-outline', component: SeguimientoPage, valor:'1'},
       { title: 'Tienda', icon:'ios-card-outline',component: TiendaPage , valor:'0'},
       { title: 'Encontrar Taller',icon:'ios-navigate-outline', component: ListPage , valor:'0'},
+      { title: 'Acerca de Nosotros',icon:'ios-globe-outline', component: ListPage , valor:'0'},
+
       { title: 'Cerrar Sesion',icon:'ios-exit-outline',component: LoginPage, valor:'0' }
 
     ];
