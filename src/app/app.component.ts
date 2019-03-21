@@ -18,7 +18,7 @@ import { AcercaPage } from '../pages/acerca/acerca';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = AcercaPage;
+  rootPage: any = ArticuloPage;
 
   pages: Array<{title: string, component: any,icon:string, valor:string}>;
 
@@ -30,8 +30,8 @@ export class MyApp {
       { title: 'Principal',icon:'ios-cube-outline', component: HomePage, valor:'0' },
       { title: 'Seguimiento',icon:'ios-search-outline', component: SeguimientoPage, valor:'1'},
       { title: 'Tienda', icon:'ios-card-outline',component: TiendaPage , valor:'0'},
-      { title: 'Encontrar Taller',icon:'ios-navigate-outline', component: ListPage , valor:'0'},
-      { title: 'Acerca de Nosotros',icon:'ios-globe-outline', component: ListPage , valor:'0'},
+      { title: 'Encontrar Taller',icon:'ios-navigate-outline', component: EncontrarPage , valor:'0'},
+      { title: 'Acerca de Nosotros',icon:'ios-globe-outline', component: AcercaPage , valor:'0'},
 
       { title: 'Cerrar Sesion',icon:'ios-exit-outline',component: LoginPage, valor:'0' }
 
