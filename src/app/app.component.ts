@@ -11,6 +11,9 @@ import { LoginPage} from '../pages/login/login';
 import { ArticuloPage } from '../pages/articulo/articulo';
 import { EncontrarPage } from '../pages/encontrar/encontrar';
 import { AcercaPage } from '../pages/acerca/acerca';
+import { RepuestosPage } from '../pages/repuestos/repuestos';
+import { ConsultaPage } from '../pages/consulta/consulta';
+import { PagoPage } from '../pages/pago/pago';
 
 @Component({
   templateUrl: 'app.html'
@@ -18,7 +21,7 @@ import { AcercaPage } from '../pages/acerca/acerca';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ArticuloPage;
+  rootPage: any = PagoPage;
 
   pages: Array<{title: string, component: any,icon:string, valor:string}>;
 
@@ -31,6 +34,8 @@ export class MyApp {
       { title: 'Seguimiento',icon:'ios-search-outline', component: SeguimientoPage, valor:'1'},
       { title: 'Tienda', icon:'ios-card-outline',component: TiendaPage , valor:'0'},
       { title: 'Encontrar Taller',icon:'ios-navigate-outline', component: EncontrarPage , valor:'0'},
+      { title: 'Consulta',icon:'ios-book-outline', component: ConsultaPage , valor:'0'},
+
       { title: 'Acerca de Nosotros',icon:'ios-globe-outline', component: AcercaPage , valor:'0'},
 
       { title: 'Cerrar Sesion',icon:'ios-exit-outline',component: LoginPage, valor:'0' }

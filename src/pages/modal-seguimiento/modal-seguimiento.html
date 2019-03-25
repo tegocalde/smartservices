@@ -1,15 +1,26 @@
 
 <ion-header>
-  <ion-navbar>
-    <ion-title>modalSeguimiento</ion-title>
+  <ion-navbar color="marino">
+    <ion-title>Chat</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
 
 
-<ion-textarea placeholder="Escribir aqui" id="areaNota" maxLength="300" rows="12"></ion-textarea>
+<ion-card class="contenedor">
+  <ion-card-header>
+    
+  </ion-card-header>
+  <ion-card-content>
+    <h4><b>Mecanico dice: </b>La transmision estaba presentando inconvenientes con el switch de presion CT2566.</h4>
+    <br>
+    <br>
+    <h4><b>Yo: </b>Entonces el fallo que estaba presentando el vehiculo era por esa pieza?</h4>
+  </ion-card-content>
+</ion-card>
 
+<ion-input type="text" class="input" placeholder="Escribe Aqui" float></ion-input>
 <ion-item padding>
 <button ion-button (click)="cerrarNota()" id="cerrar"> cerrar</button>
 <button ion-button (click)="cerrarNota()" id="enviar"> Enviar</button>

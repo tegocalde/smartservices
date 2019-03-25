@@ -17,6 +17,8 @@ import { RepuestosPage } from '../pages/repuestos/repuestos';
 import { ArticuloPage } from '../pages/articulo/articulo';
 import { EncontrarPage } from '../pages/encontrar/encontrar';
 import { AcercaPage } from '../pages/acerca/acerca';
+import { ConsultaPage } from '../pages/consulta/consulta';
+import { PagoPage } from '../pages/pago/pago';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { AcercaPage } from '../pages/acerca/acerca';
     RepuestosPage,
     ArticuloPage,
     EncontrarPage,
-    AcercaPage
+    AcercaPage,
+    ConsultaPage,
+    PagoPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +54,9 @@ import { AcercaPage } from '../pages/acerca/acerca';
     RepuestosPage,
     ArticuloPage,
     EncontrarPage,
-    AcercaPage
+    AcercaPage,
+    ConsultaPage,
+    PagoPage
   ],
   providers: [
     StatusBar,
