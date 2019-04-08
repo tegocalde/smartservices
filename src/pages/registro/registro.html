@@ -1,34 +1,54 @@
 
 <ion-header>
-  <ion-navbar color="danger">
-    <ion-title>Registro</ion-title>
-  </ion-navbar>
+
+    <ion-navbar color="danger" >
+        <ion-title>Registro</ion-title>
+      </ion-navbar >
+
 </ion-header>
 
 <ion-content padding>
   <ion-item>
-    <ion-label><b>Nombres</b></ion-label>
-    <ion-input type="text"></ion-input>
+    <ion-input type="text" placeholder="Nombres"></ion-input>
   </ion-item>
 
   <ion-item>
-      <ion-label><b>Apellidos</b></ion-label>
-      <ion-input type="text"></ion-input>
+      <ion-input type="text" placeholder="Apellidos"></ion-input>
     </ion-item>
 
     <ion-item>
-        <ion-label><b>Telefono</b></ion-label>
-        <ion-input type="number"></ion-input>
+        <ion-input type="number" placeholder="No. Telefono"></ion-input>
       </ion-item>
 
       <ion-item>
-          <ion-label><b>Cedula</b></ion-label>
-          <ion-input type="number"></ion-input>
+         
+          <ion-input type="number" placeholder="No. Cedula"></ion-input>
         </ion-item>
 
         <ion-item>
-            <ion-label><b>Direccion</b></ion-label>
-            <ion-textarea type="text"></ion-textarea>
+          
+            <ion-input type="text" placeholder="Correo Electronico"></ion-input>
           </ion-item>
+        
+        
+
+          <ion-list radio-group>
+            <ion-list-header id="pago">
+            <b>Metodo de Pago</b>
+             <img src="../../assets/imgs/visa.png" class="logo"/>
+             <img src="../../assets/imgs/mastercard.png" class="logo"/>
+            </ion-list-header>
+            <ion-item>
+              <ion-label>Ninguno</ion-label>
+              <ion-radio checked="true" value=""></ion-radio>
+            </ion-item>
+
+            <ion-item>
+                <ion-label>Tarjeta de Credito</ion-label>
+                <ion-radio checked="" value=""></ion-radio>
+              </ion-item>
+            
+          </ion-list>
+          <button ion-button id="continuar" (click)="navegar()"> Continuar  </button>
 
 </ion-content>

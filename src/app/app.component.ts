@@ -14,6 +14,9 @@ import { AcercaPage } from '../pages/acerca/acerca';
 import { RepuestosPage } from '../pages/repuestos/repuestos';
 import { ConsultaPage } from '../pages/consulta/consulta';
 import { PagoPage } from '../pages/pago/pago';
+import { RegistroPage } from '../pages/registro/registro';
+import { CarritoPage } from '../pages/carrito/carrito';
+import { CotizacionPage } from '../pages/cotizacion/cotizacion';
 
 @Component({
   templateUrl: 'app.html'
@@ -21,7 +24,7 @@ import { PagoPage } from '../pages/pago/pago';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = PagoPage;
+  rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any,icon:string, valor:string}>;
 
@@ -32,9 +35,12 @@ export class MyApp {
     this.pages = [
       { title: 'Principal',icon:'ios-cube-outline', component: HomePage, valor:'0' },
       { title: 'Seguimiento',icon:'ios-search-outline', component: SeguimientoPage, valor:'1'},
+      { title: 'Cotizaciones',icon:'ios-albums-outline', component: CotizacionPage , valor:'0'},
+
       { title: 'Tienda', icon:'ios-card-outline',component: TiendaPage , valor:'0'},
       { title: 'Encontrar Taller',icon:'ios-navigate-outline', component: EncontrarPage , valor:'0'},
       { title: 'Consulta',icon:'ios-book-outline', component: ConsultaPage , valor:'0'},
+
 
       { title: 'Acerca de Nosotros',icon:'ios-globe-outline', component: AcercaPage , valor:'0'},
 

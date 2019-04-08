@@ -14,23 +14,27 @@
 
 <ion-content padding>
 
-    <ion-card > 
+    <ion-card id="carta"> 
         <ion-card-header color="marino">
-          <ion-card-title color="danger">Reparacion</ion-card-title>
+          <ion-card-title color="danger"> <b>Reparacion</b></ion-card-title>
           <img src="../../assets/imgs/hondaCivic.jpg" class="foto">
 
         </ion-card-header>
     
         <ion-card-content >
-          <ion-label><b>Vehiculo: </b> Honda Civic 2009</ion-label>
+          <h4><b>Vehiculo: </b> Honda Civic 2009</h4>
    
-           <ion-label><b>Fecha Inicio: </b>{{tiempo | date: 'dd/MM/yyyy'}}<br></ion-label> 
-           <ion-label><b>Tipo Reparacion: </b> Problemas en Transmision.</ion-label>
-           <ion-label><b>Tiempo Restante: </b>3 Dias.<br></ion-label>  
+           <h4><b>Fecha Inicio: </b>{{tiempo | date: 'dd/MM/yyyy'}}<br></h4> 
+           <h4><b>Tipo Reparacion: </b> Problemas en Transmision.</h4>
+           <h4><b>Tiempo Restante: </b>3 Dias.<br></h4>  <br>
+          
           
         
           
-            <b>Nota: </b> La transmision estaba presentando inconvenientes con el switch de presion CT2566.
+
+             <h4 id="nota"> <b>Nota del Mecanico: </b> La transmision estaba presentando inconvenientes con el switch de presion CT2566.</h4>
+
+         
            
     
           

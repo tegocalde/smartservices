@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { PassPage } from '../pass/pass';
+import { LoginPage } from '../login/login';
 
 /**
- * Generated class for the RegistroPage page.
+ * Generated class for the PassPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,25 +11,26 @@ import { PassPage } from '../pass/pass';
 
 @IonicPage()
 @Component({
-  selector: 'page-registro',
-  templateUrl: 'registro.html',
+  selector: 'page-pass',
+  templateUrl: 'pass.html',
 })
-export class RegistroPage {
+export class PassPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
-    
-
   }
-  navegar()
+
+  saltar()
   {
-    this.navCtrl.push(PassPage);
+    this.navCtrl.push(LoginPage);
   }
 
- 
+  regreso()
+  {
+    this.navCtrl.pop();
+  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RegistroPage');
-   
+    console.log('ionViewDidLoad PassPage');
   }
 
 }

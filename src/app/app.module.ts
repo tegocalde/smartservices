@@ -19,6 +19,9 @@ import { EncontrarPage } from '../pages/encontrar/encontrar';
 import { AcercaPage } from '../pages/acerca/acerca';
 import { ConsultaPage } from '../pages/consulta/consulta';
 import { PagoPage } from '../pages/pago/pago';
+import { PassPage } from '../pages/pass/pass';
+import { CarritoPage } from '../pages/carrito/carrito';
+import { CotizacionPage } from '../pages/cotizacion/cotizacion';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { PagoPage } from '../pages/pago/pago';
     EncontrarPage,
     AcercaPage,
     ConsultaPage,
-    PagoPage
+    PagoPage,
+    PassPage,
+    CarritoPage,
+    CotizacionPage
   ],
   imports: [
     BrowserModule,
@@ -56,7 +62,10 @@ import { PagoPage } from '../pages/pago/pago';
     EncontrarPage,
     AcercaPage,
     ConsultaPage,
-    PagoPage
+    PagoPage,
+    PassPage,
+    CarritoPage,
+    CotizacionPage
   ],
   providers: [
     StatusBar,
